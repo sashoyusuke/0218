@@ -110,6 +110,8 @@ input, select {
   color: white;
   font-size: 14px;
   font-weight: bold;
+  margin-left: 35px;
+  margin-top: 10px;
 }
 
 .header-nav ul{
@@ -145,6 +147,41 @@ input, select {
   font-weight: bold;
   color: #ccc;
  }  
+.news-wrap{
+  display: flex;
+}
+.news-text{
+  background: white;
+  width: 700px;
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.news-title h3{
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.news-title{
+  color: white;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3px 20px;
+  width: 150px;
+　
+}
+
+
 
  #footer{
    background: black;
@@ -159,9 +196,13 @@ input, select {
 .bottom-title{
   font-weight: bold;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-nav ul{
   text-align: right;
+  margin-right: 20px;
   }
 
 .footer-nav li{
@@ -189,7 +230,7 @@ input, select {
   height: 300px;
   position: relative;
 }
-.concept{
+#concept h3{
   font-weight: bold;
   font-size: 18px;
   color: white;
@@ -197,21 +238,24 @@ input, select {
   text-align:center;
 }
 
-.text-1{
+#concept p{
   color: white;
   font-size: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 500px;
+  margin-left: 520px;
+  position: absolute;
+  z-index:1;
   }
 .button-mission-submit {
-  text-align: left;
+  margin-left: 520px;
 }
 
 .button-mission {
   padding: 10px 30px;
   background-color:#f2f2f2;
   color:black;
-  margin: 30px 0;
+  margin-top: 40px;
 }
 
 .link:hover {
@@ -220,7 +264,10 @@ input, select {
 }
 
 .orange{
-  margin-left: 80%;
+  position: absolute;
+  top: 60px;
+  right: 250px;
+  z-index: 0;
   }
 
 #margin{
@@ -249,8 +296,8 @@ input, select {
 
 
 .card {
-  width: 300px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  width: 500px;
+  padding: 70px 40px 50px; /* 上20px 左右12px 下10px */
   color: #333;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
@@ -280,11 +327,18 @@ input, select {
   background-color: white;
   border: 1px solid black;
   padding: 10px 10px;
+  width: 100px;
+  margin-left: 380px;
 }
 
+.service-1{
+text-align:left;
+position: relative;
+margin-top: 100px;
+}
 .card-2 {
-  width: 300px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  width: 500px;
+  padding: 70px 40px 50px; /* 上20px 左右12px 下10px */
   color: #333;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
@@ -307,31 +361,8 @@ input, select {
 }
 
 
-.service-1{
-text-align:left;
-position: relative;
-}
 
-.card-2 {
-  width: 300px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
-  color: #333;
-  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
-  border-radius: 3px;
-  transition: 0.3s;
-  background: white;
-  position: absolute;
-  top: 30%;
-  right: 40%;
-}
-
-.title-2,
-.text-2 {
-  margin: 0;
-  color: black;
-}
-
-.mission-2{
+.mission-2 {
   display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
   text-align: center;
   font-size: 14px;
@@ -339,12 +370,9 @@ position: relative;
   background-color: white;
   border: 1px solid black;
   padding: 10px 10px;
+  width: 100px;
+  margin-left: 380px;
 }
-
-.service-1{
-  margin-top: 250px;
-}
-
 
 
 #company-recruit{

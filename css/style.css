@@ -178,15 +178,14 @@ input, select {
   right: 0;
   padding: 3px 20px;
   width: 150px;
-　
 }
 
 
 
  #footer{
-   background: black;
-   text-align: center;
-}
+   background:black;
+   text-align:center;
+ }
 
 
 .footer-wrap{
@@ -230,7 +229,13 @@ input, select {
   height: 300px;
   position: relative;
 }
-#concept h3{
+
+.concept-wrap{
+  margin-left: 10%;
+  padding: 10px 10px;
+}
+
+.concept-wrap h3{
   font-weight: bold;
   font-size: 18px;
   color: white;
@@ -238,24 +243,23 @@ input, select {
   text-align:center;
 }
 
-#concept p{
+.concept-wrap p{
   color: white;
   font-size: 10px;
   margin: 0 auto;
   width: 500px;
-  margin-left: 520px;
+  margin-left: 450px;
   position: absolute;
   z-index:1;
   }
-.button-mission-submit {
-  margin-left: 520px;
-}
+
 
 .button-mission {
   padding: 10px 30px;
   background-color:#f2f2f2;
   color:black;
   margin-top: 40px;
+  margin-left: 450px;
 }
 
 .link:hover {
@@ -265,9 +269,10 @@ input, select {
 
 .orange{
   position: absolute;
-  top: 60px;
+  top: 720px;
   right: 250px;
   z-index: 0;
+  margin-left: 70%;
   }
 
 #margin{

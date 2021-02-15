@@ -125,10 +125,12 @@ input, select {
   margin-right: 14px;
   margin-top: 10px;
   font-size: 7px;
+
 }
 
 .header-nav a{
   color:white;
+  text-decoration: none;
 }
 
 #eyecatch{
@@ -152,16 +154,16 @@ input, select {
 }
 .news-text{
   background: white;
-  width: 700px;
+  width: 70%;
   color: black;
   font-size: 10px;
   position: absolute;
   bottom: 0;
   right: 0;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 80px;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-top: 4%;
+  margin-left: 5%;;
 }
 .news-title h3{
   color: white;
@@ -171,13 +173,14 @@ input, select {
 }
 
 .news-title{
-  color: white;
   background: black;
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 3px 20px;
-  width: 150px;
+  padding-top: 1.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 15%;
 }
 
 
@@ -215,6 +218,7 @@ input, select {
 
 .footer-nav a{
   color: white;
+  text-decoration: none;
 }
 
 
@@ -233,13 +237,13 @@ input, select {
 .concept-wrap{
   margin-left: 10%;
   padding: 5% 5%;
+  text-align: left;
 }
 
 .concept-wrap h3{
   font-weight: bold;
   font-size: 18px;
   color: white;
-  padding: 20px 40px;
   text-align:center;
   position: absolute;
   top: 20%;
@@ -264,7 +268,6 @@ input, select {
   background-color:#f2f2f2;
   color:black;
   margin-top: 40px;
-  
   position: absolute;
   top: 40%;
   left: 40%;
@@ -301,6 +304,14 @@ input, select {
   font-weight: bold;
   color: black;
   font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+
+.card-title{
+  text-align: left;
+  margin-left: 2.5%;
 }
 
 .camera{
@@ -308,9 +319,12 @@ input, select {
   position: relative;
 }
 
+.camera img {
+  margin-right: 5%;
+}
 
 .card {
-  width: 500px;
+  width: 40%;
   padding: 70px 40px 50px; /* 上20px 左右12px 下10px */
   color: #333;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
@@ -318,21 +332,28 @@ input, select {
   transition: 0.3s;
   background: white;
   position: absolute;
-  top: 30%;
+  top: 15%;
   right: 40%;
-  margin-bottom: 5%;
 }
 
-.title,
-.text {
-  margin: 0;
+.one{
   color: black;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-.text {
-  padding: 10px 0;
+.two{
+  color: black;
   font-size: 14px;
+  text-align: left;
+  line-height: 25px;
 }
+.card h5{
+  text-align: left;   
+}
+
 
 .mission {
   display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
@@ -342,17 +363,23 @@ input, select {
   background-color: white;
   border: 1px solid black;
   padding: 10px 10px;
-  width: 100px;
-  margin-left: 380px;
+  width: 25%;
+  margin-left: 70%;
+  text-decoration: none;
 }
 
 .service-1{
 text-align:left;
 position: relative;
-margin-top: 100px;
+margin-top:5%;
+}
+
+.service-1 img{
+  margin-left: 5%;
+  
 }
 .card-2 {
-  width: 500px;
+  width: 40%;
   padding: 70px 40px 50px; /* 上20px 左右12px 下10px */
   color: #333;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
@@ -360,22 +387,23 @@ margin-top: 100px;
   transition: 0.3s;
   background: white;
   position: absolute;
-  top: 30%;
-  right:0;
-  margin-bottom: 5%;
+  top: 20%;
+  right:25%;
 }
 
-.title-2,
-.text-2 {
-  margin: 0;
+.card-2 h5{
   color: black;
 }
 
-.text-2 {
-  padding: 10px 0;
+.three{
   font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
-
+.four{
+  font-size: 14px;
+  line-height: 25px;
+}
 
 
 .mission-2 {
@@ -386,8 +414,9 @@ margin-top: 100px;
   background-color: white;
   border: 1px solid black;
   padding: 10px 10px;
-  width: 100px;
-  margin-left: 380px;
+  width: 25%;
+  margin-left: 70%;
+  text-decoration: none;
 }
 
 
